@@ -21,7 +21,7 @@ This is a full-stack MERN application that manages the basic information of empl
 Clone the project
 
 ```bash
-  git clone https://github.com/doananhtingithub40102/mern-app.git
+  git clone https://github.com/Salhianis1/MERN-Application-docker-k8s.git
 ```
 
 Go to the project directory
@@ -100,7 +100,9 @@ Start the Client
 **Fullstack**
 
 * Learn all about the [MERN stack](https://www.mongodb.com/languages/mern-stack-tutorial) in this step-by-step guide on how to use it by developing a simple CRUD application from scratch.
-
+  
+<!--
 ## Live app
 
 <a href="https://employee-manager-tindoan-xu3i.onrender.com/">Live fullstack MERN app</a>
+-->

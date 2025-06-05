@@ -7,6 +7,7 @@ pipeline {
         IMAGE_TAG = 'latest'
     }
 
+    stages {
         stage('Checkout') {
             steps {
                 git branch: 'main', url: 'https://github.com/Salhianis1/MERN-Application-docker-k8s.git'
@@ -41,3 +42,12 @@ pipeline {
         }
     }
 
+    post {
+        success {
+            echo '✅ Build and push completed successfully!'
+        }
+        failure {
+            echo '❌ Build or push failed.'
+        }
+    }
+}

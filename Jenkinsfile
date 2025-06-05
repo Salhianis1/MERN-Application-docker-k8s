@@ -7,10 +7,9 @@ pipeline {
         IMAGE_TAG = 'latest'
     }
 
-    stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/Salhianis1/MERN-Application-docker-k8s.git'
+                git branch: 'main', url: 'https://github.com/Salhianis1/MERN-Application-docker-k8s.git'
             }
         }
 
